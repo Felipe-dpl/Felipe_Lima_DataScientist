@@ -1,6 +1,7 @@
 # Felipe_Lima_DataScientist
 
-The objective here is to analyze a given dataset, make a exploratory data analysis and answer the proposed questions.
+The objective here is to analyze a given dataset, make a exploratory data analysis and answer the proposed questions.]
+I used the Google Colab to make all python code.
 
 ## Case 1
 The first dataset is the TFP.csv.
