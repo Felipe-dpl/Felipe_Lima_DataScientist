@@ -26,7 +26,8 @@ warnings.filterwarnings("ignore")
 
 !pip install squarify
 import squarify
-
+```
+```python
 data = pd.read_csv("/content/TFP.csv")
 data.head() # Using (head) to get the first 5 values of our dataset to check it
 
@@ -37,11 +38,11 @@ data.describe() # With (descibre) we can get some informations regarding the max
 data.nunique() # We can check the uniqueness of our columns using (nunique), we can see that we have only 3 countries(isocode), have 62 years represented (from 1950 to 2011) and have 184 values for RTFPNA
 
 data.isnull().sum() #Finally, we can check if we have any null value in the dataset
+```
 
-"""## Data Visualization
+## Data Visualization
 
 Now, we'll plot some views of this dataset, so we can get a look on it and we can discover patterns, spot anomalies, frame our hypothesis and check our assumptions
-"""
 
 #Plot using the 3 Countries (isocode) by Year, using Seaborn
 lm = sns.lmplot(x='year', y='rtfpna', data=data,fit_reg=False, hue='isocode')
