@@ -3,6 +3,8 @@
 The objective here is to analyze a given dataset, make a exploratory data analysis and answer the proposed questions.]
 I used the Google Colab to make all python code.
 
+Please, access the [Felipe's Analysis](https://github.com/Felipe-dpl/Felipe_Lima_DataScientist/blob/master/FelipeLima_DataScientist.ipynb) to see all the work done.
+
 ## Case 1
 The first dataset is the TFP.csv.
 
