@@ -1,5 +1,5 @@
 # Felipe_Lima_DataScientist
-
+```python
 import pandas as pd
 import numpy as np
 import matplotlib as mpl
@@ -450,3 +450,4 @@ prod6 = produtos.loc[(produtos['product']=='sugar')].sort_values(by ='usd', asce
 produtos_definitivo = pd.concat([prod1,prod2,prod3,prod4,prod5,prod6])
 produtos_definitivo
 
+```
